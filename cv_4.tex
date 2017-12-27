@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{color}
+
+
+\name{Jiaqi Yan} % Your name
+\address{3117 S Lowe Ave \\ Chicago, IL 60616} % Your address
+\address{(312)~$\cdot$~888~$\cdot$~1642 \\ littlepretty881203@gmail.com} % Your phone number and email
+\address{{\href{https://github.com/littlepretty}{Github: littlepretty}} \\ Website: \href{http://mypages.iit.edu/~jyan31}{\textit{http://mypages.iit.edu/~jyan31}}}
+
+\begin{document}
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Illinois Institute of Technology} \hfill {\em Expected Graduation May 2019} \\ 
+Ph.D in Computer Science \\
+Advisor: \href{http://cs.iit.edu/~djin/index.html}{Dr. Dong (Kevin) Jin} \\
+Interests: Deep/Machine Learning for Network Security, Software-defined Networking, Container-based Network Virtualization and Emulation \\
+Overall GPA: 4.0/4.0
+
+{\bf Beijing Normal University} \hfill{\em Sept 2011 -- July 2014} \\
+M.E. in Communication Systems\\
+Advisor: \href{http://cist.bnu.edu.cn/xygk/szdw/zgj/552.html}{Dr. Zuying Luo} \\
+Thesis: \emph{On Temperature and Power Management for VLSI} \\
+Overall GPA: 3.85/4.0
+
+{\bf Beijing Normal University} \hfill{\em Sept 2007 -- July 2011} \\
+B.S. in Electronic Engineering\\
+Thesis: \emph{On A Novel Prediction Model of Network Traffic} \\
+Overall GPA: 3.47/4.0
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Nokia Bell Labs}{June 2017 - August 2017}{Summer Research Intern}{Murray Hill, NJ}
+\item Works with \href{https://www.bell-labs.com/usr/sameer.sharma}{Sameer Sharama} and \href{https://www.bell-labs.com/usr/bilgehan.erman}{Bilgehan Erman} on the \textbf{Autonomic Mobile Network Function Migration} project
+\item Study and propose the design of \textbf{stateless} Virtualized Network Function(VNF) to break the tight coupling of data and processing, along with its migration mechanism
+\item Design and build the VNF migration framework in the SDN- and NFV-enabled 5G mobile network environment
+\item Implement an ONOS traffic monitoring and steering network function(NF) in both stateful and stateless fashion, and experimentally demonstrate their migration mechanisms between edge and core clouds
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Fermi Accelerator National Laboratory}{July 2016 - Aug 2016}{Research Visitor}{Batavia, IL}
+\item Works with \href{http://home.fnal.gov/~timm/}{Steven Timm} on the \textbf{HEPCloud Infrastructure} project
+\item Dockerize high energy particle computation applications like MicroBoone and CMS to port to NERSC HPC systems
+\item Document dockerization and job submission workflow on Edison \& Cori @ NERSC
+\item Explore the possibility of utilizing Google Container Engine and managing dockers orchestration using Kubernetes
+\end{rSubsection}
+
+%------------------------------------------------
+%\begin{rSubsection}{AsiaInfo Linkage}{July 2013 - August 2013}{iOS Developer Intern}{Beijing, China}
+%\item Accelerate backtracking code from seconds to milliseconds for game-solving strategy 
+%\item Design the RESTful communication interface between mobile end and server end
+%\item Implement the audio/video processing component of an application
+%\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research}
+
+\begin{rSubsection}{\textbf{Deep Learning} for Network Intrusion Detection System}{2016 - Present}{PhD Research Project}{Illinois Institute of Technology}
+\item Training deep Multilayer Perceptron network with empirically efficient techniques, such as SGD and dropout
+\item Learn useful, hierarchical features unsupervisedly with generative models such as \textbf{stacked Restricted Boltzmann Machines} or \textbf{stacked Sparse/Denoise Autoencoders}, visualizing using \textbf{t-SNE}
+\item Synthesize new attacking traffics using various \textbf{Generative Adversarial Networks}
+\item Compare prediction precision and recall of my \textbf{TensorFlow}-based implementations with traditional ML approaches, e.g., SVM, decision trees
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Virtual Time System for Linux Container}{2014 - 2016}{PhD Research Project}{Illinois Institute of Technology}
+\item Design and implement \textbf{Virtual Time System} in \textbf{Linux kernel}; features includes time dilation and time freeze for Linux container
+\item Sent patch to Linux timekeeping's maintainer \textbf{John Stultz} as RFC
+\item Adding virtualized clock to \textbf{Mininet}, the most popular \textbf{open source} SDN emulator, so that it can emulate 10 GB/s level link or x10 network devices.
+\item Integrate VTS with \textbf{DSSnet}, our hybrid modeling platform combining electric power distribution simulation with software-defined networking emulation
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Dynamic Temperature and Power Management for MPSoCs}{2012 - 2013}{Master Student Project}{Beijing Normal University}
+\item Design and implement faster temperature analysis \textbf{open source} software for temperature analysis in Multi-Processor System on Chips
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+
+%------------------------------------------------
+{\bf Simulation of a Software-defined Network as One Big Switch} \hfill {\em PADS 2017}\\ 
+Jiaqi Yan, Xin Liu, Dong Jin \\
+2017 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, NTU, Singapore
+
+%------------------------------------------------
+{\bf DSSnet: A Smart Grid Modeling Platform Combining Electrical Power Distribution System
+    Simulation and Software Defined Networking Emulation} \hfill {\em PADS 2016}\\ 
+Christopher Hannon, Jiaqi Yan,Dong Jin \hfill {\color{red}Best Paper Nominee} \\
+2016 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, Banff, Alberta, Canada
+
+%------------------------------------------------
+{\bf VT-Mininet: Virtual-time-enabled Mininet for Scalable and Accurate Software-Defined Network Emulation} \hfill {\em SOSR 2015}\\ 
+Jiaqi Yan, Dong Jin \hfill {\color{red}Acceptance Rate 19.7\%} \\
+2015 ACM SIGCOMM Symposium on SDN Research, San Jose, CA, USA
+
+%------------------------------------------------
+{\bf A Virtual Time System for Linux-container-based Emulation of Software Defined Networks} \hfill {\em PADS 2015}\\
+Jiaqi Yan, Dong Jin \hfill {\color{red}Best Paper Nominee} \\
+2015 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, London, UK
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{HONORS}
+
+%------------------------------------------------
+{\bf Session Chair at 2017 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation} \hfill {\em 2017}\\
+Chair of the ``Simulation Applications" Session
+
+%------------------------------------------------
+{\bf Teaching Assistant: CS458 Cyber-Security} \hfill {\em CS Department, IIT}
+
+%------------------------------------------------
+{\bf {\color{red}Best} Poster Award} \hfill {\em Workshop on Science of Security through Software-Defined Networking}\\
+Towards A Secure and Resilient Industrial Control System with Software-Defined Networking \\
+Dong Jin, Jiaqi Yan, Xin Liu, Christopher Hannon
+
+%------------------------------------------------
+{\bf {\color{red}First Place} in Student Poster Session} \hfill {\em 2016 IIT Research Day} \\
+DSSnet: A Smart Grid Modeling Platform Combining Electrical Power Distribution System Simulation and Software Defined Networking Emulation \\
+Christopher Hannon, Jiaqi Yan, Dong Jin
+
+{\bf Graduate Student Scholarship} \hfill {\em 2014 Beijing Normal University} \\
+Awarded to the \textbf{top 5} student in their final year of graduate degree
+
+{\bf Postgraduate Student Scholarship} \hfill {\em 2008 Beijing Normal University} \\
+{Awarded to the \textbf{top 10} student in their first year of Bachelors degree}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & C/C++, Python, Shell Script, \LaTeX, Object-C, Swift \\
+Platforms & Linux Kernel Development, TensorFlow, Keras, ONOS, iOS \\ 
+Protocols & OpenFlow, TCP/IP, REST, JSON \\
+Databases & MySQL, Microsoft SQL \\
+Tools & Vim, Git, Xcode, Matlab
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
