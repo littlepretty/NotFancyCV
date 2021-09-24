@@ -28,9 +28,10 @@
 
 
 \name{Jiaqi Yan} % Your name
-\address{3117 S Lowe Ave \\ Chicago, IL 60616} % Your address
-\address{(312)~$\cdot$~888~$\cdot$~1642 \\ littlepretty881203@gmail.com} % Your phone number and email
-\address{{\href{https://github.com/littlepretty}{Github: littlepretty}} \\ Website: \href{http://mypages.iit.edu/~jyan31}{\textit{http://mypages.iit.edu/~jyan31}}}
+\address{4250 Lake Sammamish Parkway NE, Apt G3045, Redmond, WA 98052} % Your address
+\address{Mobile: (312)~$\cdot$~888~$\cdot$~1642} % Your phone number and email
+\address{Email: littlepretty881203@gmail.com}
+% \address{{\href{https://github.com/littlepretty}{Github: littlepretty}} \\ Website: \href{http://mypages.iit.edu/~jyan31}{\textit{http://mypages.iit.edu/~jyan31}}}
 
 \begin{document}
 \lastupdated
@@ -41,22 +42,24 @@
 
 \begin{rSection}{Education}
 
-{\bf Illinois Institute of Technology} \hfill {\em Expected Graduation May 2019} \\ 
+{\bf Illinois Institute of Technology} \hfill {\em August 2014 - December 2019} \\ 
 Ph.D in Computer Science \\
-Advisor: \href{http://cs.iit.edu/~djin/index.html}{Dr. Dong (Kevin) Jin} \\
+Advisor: Dr. Dong (Kevin) Jin \\
+%Advisor: \href{http://cs.iit.edu/~djin/index.html}{Dr. Dong (Kevin) Jin} \\
+Thesis: A Scalable Simulation and Modeling Framework for Evaluation of Software-define Network Design and Security Applications \\
 Interests: Deep/Machine Learning for Cyber Security, Software-defined Networking, Container-based Network Virtualization and Emulation \\
 Overall GPA: 4.0/4.0
 
-{\bf Beijing Normal University} \hfill{\em Sept 2011 -- July 2014} \\
-M.E. in Communication Systems\\
-Advisor: \href{http://cist.bnu.edu.cn/xygk/szdw/zgj/552.html}{Dr. Zuying Luo} \\
-Thesis: \emph{On Temperature and Power Management for VLSI} \\
-Overall GPA: 3.85/4.0
+% {\bf Beijing Normal University} \hfill{\em Sept 2011 -- July 2014} \\
+% M.E. in Communication Systems\\
+% Advisor: \href{http://cist.bnu.edu.cn/xygk/szdw/zgj/552.html}{Dr. Zuying Luo} \\
+% Thesis: \emph{On Temperature and Power Management for VLSI} \\
+% Overall GPA: 3.85/4.0
 
-{\bf Beijing Normal University} \hfill{\em Sept 2007 -- July 2011} \\
-B.S. in Electronic Engineering\\
-Thesis: \emph{On A Novel Prediction Model of Network Traffic} \\
-Overall GPA: 3.47/4.0
+% {\bf Beijing Normal University} \hfill{\em Sept 2007 -- July 2011} \\
+% B.S. in Electronic Engineering\\
+% Thesis: \emph{On A Novel Prediction Model of Network Traffic} \\
+% Overall GPA: 3.47/4.0
 
 \end{rSection}
 
@@ -66,8 +69,32 @@ Overall GPA: 3.47/4.0
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Google Inc.}{Feb 2018 - May 2018}{Software Developer Intern}{Waterloo, Canada}
-\item Work with \href{https://moma.corp.google.com/person/jerred}{Jerred Costanzo} in Ads Anti-Malvertising team on the \textbf{Improving Testing Efficiency} project.
+\begin{rSubsection}{Microsoft Corporation}{Jan 2020 - Current}{Software Engineer Fulltime}{Redmond, WA}
+\item Windows Network Adapter Window Driver Framework Class Extension (NetAdapterCx)
+\item Cached contiguous memory pool and IOMMU-based hybrid DMA for high performance network interface card (NIC) in Azure cloud networking
+\item Platform-level device reset support for Windows 11: recovery of an unresponsive NIC with both operating system and individual hardware vendor specific diagnostics
+\item Operating system built-in support for generic segmentation offload and receive segment coalescing in Windows 11
+\item Tools heavily used: C++, Kernel, Debugger, State Machine, Markdown
+\end{rSubsection}
+
+\begin{rSubsection}{Facebook Inc.}{May 2019 - Aug 2019}{Software Engineer Intern}{Menlo Park, CA}
+\item Benchmarking Libra Blockchain System 
+\item Built bench environment where Libra is running constantly for measuring system performance and monitoring operation healthiness
+\item Designed load generator and searched the maximum transaction throughput
+\item Found bottlenecks in production environment then successfully launch DDoS attack by injecting transactions with linearly increasing speed and volume
+\item Tools heavily used: Rust, Terraform, gRPC, Docker, AWS, Cargo, Git
+\end{rSubsection}
+
+\begin{rSubsection}{Facebook Inc.}{June 2018 - Aug 2018}{Software Engineer Intern}{Menlo Park, CA}
+\item Completed tuple-space-search based generic packet classifier (GPC) BPF module redirecting nearly all Facebook datacenter’s network applications
+\item Enhanced GPC with flow caching that improved a degree of magnitude search speed for large-scale input flows
+\item Built forwarding rule manager for efficient lookup/delete/update operations, and cache-evict algorithm to make dynamic control plane consistent
+\item High coverage unit tests and E2E tests on proof-of-concept system
+\item Tools heavily used: Linux eBPF, C/C++/Python, Thrift, Google Test, Mercurial
+\end{rSubsection}
+
+\begin{rSubsection}{Google Inc.}{Feb 2018 - May 2018}{Software Engineer Intern}{Waterloo, Canada}
+%\item Work with \href{https://moma.corp.google.com/person/jerred}{Jerred Costanzo} in Ads Anti-Malvertising team on the \textbf{Improving Testing Efficiency} project.
 \item Explored the open question why automated testing fails on ads totaling millions of impressions per day.
 \item Designed and implemented a \textbf{procedure} for uncovering reasons for testing quality errors for future design of countermeasures, by grouping ads along multiple dimensions.
 \item Organized and visualized analysis results in three highly interactive dashboards.
@@ -76,21 +103,21 @@ Overall GPA: 3.47/4.0
 \item Tools heavily used: SQL dialect and query engine, data analysis and visualization platform, transactionless database systems, and protocol buffers.
 \end{rSubsection}
 
-\begin{rSubsection}{Nokia Bell Labs}{June 2017 - August 2017}{Summer Research Intern}{Murray Hill, NJ}
-\item Work with \href{https://www.bell-labs.com/usr/sameer.sharma}{Sameer Sharama} and \href{https://www.bell-labs.com/usr/bilgehan.erman}{Bilgehan Erman} on the \textbf{Autonomic Mobile Network Function Migration} project.
-\item Study and propose the design of \textbf{stateless} Virtualized Network Function(VNF) to break the tight coupling of data and processing, along with its migration mechanism.
-\item Design and build the VNF migration framework in the SDN- and NFV-enabled 5G mobile network environment.
-\item Implement an ONOS traffic monitoring and steering network function(NF) in both stateful and stateless fashion, and experimentally demonstrate their migration mechanisms between edge and core clouds.
-\end{rSubsection}
+%\begin{rSubsection}{Nokia Bell Labs}{June 2017 - August 2017}{Summer Research Intern}{Murray Hill, NJ}
+%\item Work with \href{https://www.bell-labs.com/usr/sameer.sharma}{Sameer Sharama} and \href{https://www.bell-labs.com/usr/bilgehan.erman}{Bilgehan Erman} on the \textbf{Autonomic Mobile Network Function Migration} project.
+%\item Study and propose the design of \textbf{stateless} Virtualized Network Function(VNF) to break the tight coupling of data and processing, along with its migration mechanism.
+%\item Design and build the VNF migration framework in the SDN- and NFV-enabled 5G mobile network environment.
+%\item Implement an ONOS traffic monitoring and steering network function(NF) in both stateful and stateless fashion, and experimentally demonstrate their migration mechanisms between edge and core clouds.
+%\end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Fermi Accelerator National Laboratory}{July 2016 - Aug 2016}{Research Visitor}{Batavia, IL}
-\item Work with \href{http://home.fnal.gov/~timm/}{Steven Timm} on the \textbf{HEPCloud Infrastructure} project.
-\item Dockerize high energy particle computation applications like MicroBoone and CMS to port to NERSC HPC systems.
-\item Document dockerization and job submission workflow on Edison \& Cori @ NERSC.
-\item Explore the possibility of utilizing Google Container Engine and managing dockers orchestration using Kubernetes.
-\end{rSubsection}
+%\begin{rSubsection}{Fermi Accelerator National Laboratory}{July 2016 - Aug 2016}{Research Visitor}{Batavia, IL}
+%\item Work with \href{http://home.fnal.gov/~timm/}{Steven Timm} on the \textbf{HEPCloud Infrastructure} project.
+%\item Dockerize high energy particle computation applications like MicroBoone and CMS to port to NERSC HPC systems.
+%\item Document dockerization and job submission workflow on Edison \& Cori @ NERSC.
+%\item Explore the possibility of utilizing Google Container Engine and managing dockers orchestration using Kubernetes.
+%\end{rSubsection}
 
 %------------------------------------------------
 %\begin{rSubsection}{AsiaInfo Linkage}{July 2013 - August 2013}{iOS Developer Intern}{Beijing, China}
@@ -107,7 +134,7 @@ Overall GPA: 3.47/4.0
 
 \begin{rSection}{Research}
 
-\begin{rSubsection}{\textbf{Deep Learning} for Intrusion Detection System}{2016 - Present}{PhD Research Project}{Illinois Institute of Technology}
+\begin{rSubsection}{\textbf{Deep Learning} for Intrusion Detection System}{2016 - 2019}{PhD Research Project}{Illinois Institute of Technology}
 \item Train deep Multilayer Perceptron network with efficient techniques, such as SGD and dropout.
 \item \textbf{Embed attributed control flow graph} of disassembled binary in supervised malware detection.
 \item Learn useful, hierarchical features unsupervisedly with generative models such as \textbf{stacked Restricted Boltzmann Machines} or \textbf{stacked Sparse/Denoise Autoencoders}, visualizing using \textbf{t-SNE}.
@@ -124,9 +151,9 @@ Overall GPA: 3.47/4.0
 \end{rSubsection}
 
 %------------------------------------------------
-\begin{rSubsection}{Dynamic Temperature and Power Management for MPSoCs}{2012 - 2013}{Master Student Project}{Beijing Normal University}
-\item Design and implement faster temperature analysis \textbf{open source} software for temperature analysis in Multi-Processor System on Chips.
-\end{rSubsection}
+%\begin{rSubsection}{Dynamic Temperature and Power Management for MPSoCs}{2012 - 2013}{Master Student Project}{Beijing Normal University}
+%\item Design and implement faster temperature analysis \textbf{open source} software for temperature analysis in Multi-Processor System on Chips.
+%\end{rSubsection}
 
 \end{rSection}
 
@@ -135,8 +162,20 @@ Overall GPA: 3.47/4.0
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Publications}
-
 %------------------------------------------------
+
+{\bf Classifying Malware Represented as Control Flow Graphs using Deep Graph Convolutional Neural Network} \hfill {\em DSN 2019} \\
+Jiaqi Yan, Guanghua Yan, Dong Jin \\
+IEEE/IFIP International Conference on Dependable Systems and Networks, Portland, Oregon
+
+{\bf Distributed Virtual Time System on Embedded Linux for Evaluating Cyber-Physical Systems} \hfill {\em PADS 2019}\\ 
+Christopher Hannon, Jiaqi Yan, Dong Jin \hfill {\color{red}Best Paper} \\
+2019 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, Chicago, IL
+
+{\bf Virtual-Time-Accelerated Emulation for Blockchain Network and Application Evaluation} \hfill {\em PADS 2019}\\ 
+Xiaoliang Wu, Jiaqi Yan, Dong Jin \\
+2019 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, Chicago, IL
+
 {\bf Simulation of a Software-defined Network as One Big Switch} \hfill {\em PADS 2017}\\ 
 Jiaqi Yan, Xin Liu, Dong Jin \\
 2017 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation, NTU, Singapore
@@ -197,8 +236,8 @@ Awarded to the \textbf{top 5} student in their final year of graduate degree
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & C/C++, Python, Shell Script, \LaTeX, Object-C, Swift \\
-Platforms & Linux Kernel Development, TensorFlow, Keras, ONOS, iOS \\ 
+Computer Languages & C/C++, Python, Rust, Shell Script, \LaTeX, Object-C, Swift \\
+Platforms & Linux/Windows Kernel Development, TensorFlow, Keras, ONOS, iOS \\ 
 Protocols & OpenFlow, TCP/IP, REST, JSON \\
 Databases & MySQL, Microsoft SQL \\
 Tools & Vim, Git, Xcode, Matlab
